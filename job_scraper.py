@@ -5,7 +5,8 @@ from bs4 import BeautifulSoup
 desired_job_title = "Cleaning"
 desired_location = "Brainerd, MN"
 
-url = https://www.indeed.com/l-brainerd,+mn-jobs.html?vjk=3c1b76a2fc60c7e9
+url = "https://www.indeed.com/l-brainerd,+mn-jobs.html?vjk=3c1b76a2fc60c7e9"
+
 
 response = requests.get(url)
 
